@@ -1,0 +1,97 @@
+.header{
+    height: 130px;
+    background-color:rgb(196, 190, 190);
+}
+.img{
+height: 100px;
+width: 100px;
+margin: 10px;
+display: block;
+border: 1px solid gray;
+float: left;
+}
+h1,h3 {
+margin: 0px;
+color: gray;
+font-family: sans-serif;
+font-weight: normal;
+}
+h2 {
+margin-top: 5px;
+font-family: sans-serif;
+font-weight: normal;
+}
+p , li {
+font-family:sans-serif;
+}
+
+.navbar {
+display:flexbox;
+background-color: #333333;
+overflow: hidden;
+}
+.navbar a {
+float: left;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+font-family: sans-serif;
+}
+.navbar a:hover{
+background-color: white;
+color:#333333;
+}
+.navbar a.active {
+background-color: white;
+color: rgb(15, 15, 15);
+}
+.wrapper{
+overflow: hidden;
+}
+.col{
+float:left;
+}
+.leftside {
+width: 20%;
+height: 500px;
+background-color: rgb(196, 190, 190);
+font-family: sans-serif;
+}
+.side {
+margin: 10px auto;
+text-align: center;
+width: 86%; 
+background-color: #333333; 
+padding-top: 10px;
+padding-bottom: 10px;
+}
+.side a {
+padding: 6px 6px 6px 6px;
+text-decoration: none;
+font-size: 16px;
+color: #f2f2f2;
+display: block;
+}
+.side a:hover{
+background-color: white;
+color:#333333;
+}
+.side a.active {
+background-color: white;
+color: rgb(15, 15, 15);
+text-decoration: underline;
+}
+
+.rightside {
+margin-left: 10px;
+width: 78%;
+height: 500px;
+background-color: white;
+}
+.footer {
+height: 20px;
+width: 100%;
+background-color: #333333;
+}
