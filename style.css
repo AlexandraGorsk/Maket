@@ -1,3 +1,10 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+
+}
 .header{
     height: 130px;
     background-color:rgb(196, 190, 190);
@@ -49,13 +56,14 @@ color: rgb(15, 15, 15);
 }
 .wrapper{
 overflow: hidden;
+flex: 1;
+display: flex;
 }
 .col{
 float:left;
 }
 .leftside {
 width: 20%;
-height: 500px;
 background-color: rgb(196, 190, 190);
 font-family: sans-serif;
 }
